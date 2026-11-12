@@ -1,0 +1,30 @@
+[11/12/2026 21:01:52][bdf5c084665f][0]:Running cuda memtest, version 1.2.3
+[11/12/2026 21:01:52][bdf5c084665f][0]:NVRM version: NVIDIA UNIX Open Kernel Module for x86_64  610.57.04  Release Build  (root@dualepyc)  Sun Oct  4 09:02:32 PM AWST 2026
+[11/12/2026 21:01:52][bdf5c084665f][0]:num_gpus=1
+[11/12/2026 21:01:52][bdf5c084665f][0]:Device name=NVIDIA CMP 170HX, global memory size=68063395840, serial=1322421041719
+[11/12/2026 21:01:52][bdf5c084665f][0]:Attached to device 0 successfully.
+[11/12/2026 21:01:52][bdf5c084665f][0]:Allocated 64586 MB
+[11/12/2026 21:01:52][bdf5c084665f][0]:Test0 [Walking 1 bit]
+[11/12/2026 21:01:52][bdf5c084665f][0]:WARNING: driver reported at least 67724378112 bytes are free but largest possible allocation is 67723329536 bytes.
+[11/12/2026 21:02:39][bdf5c084665f][0]:Test0 finished in 46.1 seconds
+[11/12/2026 21:02:39][bdf5c084665f][0]:Test1 [Own address test]
+[11/12/2026 21:02:47][bdf5c084665f][0]:Test1 finished in 8.0 seconds
+[11/12/2026 21:02:47][bdf5c084665f][0]:Test2 [Moving inversions, ones&zeros]
+[11/12/2026 21:03:27][bdf5c084665f][0]:Test2 finished in 40.3 seconds
+[11/12/2026 21:03:27][bdf5c084665f][0]:Test3 [Moving inversions, 8 bit pat]
+[11/12/2026 21:04:07][bdf5c084665f][0]:Test3 finished in 40.3 seconds
+[11/12/2026 21:04:07][bdf5c084665f][0]:Test4 [Moving inversions, random pattern]
+[11/12/2026 21:04:27][bdf5c084665f][0]:Test4 finished in 20.1 seconds
+[11/12/2026 21:04:27][bdf5c084665f][0]:Test5 [Block move, 64 moves]
+[11/12/2026 21:04:40][bdf5c084665f][0]:Test5 finished in 12.3 seconds
+[11/12/2026 21:04:40][bdf5c084665f][0]:Test6 [Moving inversions, 32 bit pat]
+[11/12/2026 21:28:32][bdf5c084665f][0]:Test6 finished in 1432.5 seconds
+[11/12/2026 21:28:32][bdf5c084665f][0]:Test7 [Random number sequence]
+[11/12/2026 21:29:01][bdf5c084665f][0]:Test7 finished in 28.3 seconds
+[11/12/2026 21:29:01][bdf5c084665f][0]:Test8 [Modulo 20, random pattern]
+[11/12/2026 21:29:01][bdf5c084665f][0]:test8[mod test]: p1=0x5c2b51b4, p2=0xa3d4ae4b
+[11/12/2026 21:30:25][bdf5c084665f][0]:Test8 finished in 85.0 seconds
+[11/12/2026 21:30:25][bdf5c084665f][0]:Test10 [Memory stress test]
+[11/12/2026 21:30:25][bdf5c084665f][0]:Test10 with pattern=0x2d40baf602c583fa
+[11/12/2026 21:30:32][bdf5c084665f][0]:Test10 finished in 6.7 seconds
+main thread: Program exits

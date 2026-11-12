@@ -1,0 +1,3 @@
+=== fingerprint Fri Nov 13 05:01:52 AM AWST 2026 ===
+index, name, serial, uuid, vbios_version, pci.device_id, memory.total [MiB], pci.bus_id, power.default_limit [W], power.max_limit [W], power.min_limit [W], clocks.max.sm [MHz], clocks.max.memory [MHz]
+0, NVIDIA CMP 170HX, 1322421041719, GPU-e0e592d2-1f18-9c1d-b864-2dfba1024d51, 92.00.6D.00.0A, 0x20C210DE, 65536 MiB, 00000000:CE:00.0, 250.00 W, 300.00 W, 100.00 W, 1695 MHz, 1728 MHz
